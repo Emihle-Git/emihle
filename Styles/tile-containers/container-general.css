@@ -1,0 +1,15 @@
+.container{
+  width: 1099px;
+  justify-self: center;
+  margin-top: 15px;
+}
+.container-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.container-button{
+  width: 37px;
+  height: 37px;
+}

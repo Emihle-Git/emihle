@@ -1,0 +1,65 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 300px;
+  justify-self: center;
+}
+
+.name{
+  font-size: 28px;
+}
+
+
+.button1{
+  width: 190px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: width 0.2s;
+  transition: height 0.2s;
+}
+.button1:hover{
+  width: 195px;
+  height: 45px;
+}
+
+.download-button1{
+  font-size: 15px;
+  color: #fff;
+}
+
+.img1-button1{
+  width: 20px;
+}
+
+@media(max-width: 576px){
+  .name{
+    font-size: 23px;
+  }
+  .button1:hover{
+    width: 190px;
+    height: 40px;
+  }
+  .img1-button1{
+    display: none;
+  }
+}
+
+@media(max-width: 375px){
+  .name{
+    font-size: 21px;
+  }
+  .button1{
+    width: 150px;
+    height: 40px;
+  }
+ 
+}
